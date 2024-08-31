@@ -1,0 +1,491 @@
+* {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(43, 43, 43, 1);
+}
+
+
+
+@font-face {
+    font-family: "spaceMono";
+    src: url("SpaceMono-Regular.ttf");
+}
+
+
+
+@font-face {
+    font-family: "workSans";
+    src: url("WorkSans-Regular.ttf");
+}
+
+
+.workSans {
+    font-family: "workSans";
+}
+
+
+.spaceMono {
+    font-family: "spaceMono";
+}
+
+
+
+
+.background1{
+    background-repeat: no-repeat;
+    background-image: url("2.png");
+    background-size: cover;
+}
+
+.background2{
+    background-image: linear-gradient(180deg, rgba(162, 89, 255, 0),
+    rgba(162, 89, 255, 1));
+    opacity: 0.5;
+}
+
+
+.inp::placeholder {
+    font-family: "workSans";
+    font-weight: 400;
+    color: rgba(43, 43, 43, 1);
+}
+
+
+
+.collectibles {
+    background-image: url("Image\ Placeholder\ Collectibles.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.art {
+    background-image: url("Image\ Placeholder\ Art.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+.music {
+    background-image: url("Image\ Placeholder\ Music.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.photography {
+    background-image: url("Image\ Placeholder\ Photography.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.video {
+    background-image: url("Image\ Placeholder\ Video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+.utility {
+    background-image: url("Image\ Placeholder\ Utility.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.sport {
+    background-image: url("Image\ Placeholder\ Sport.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+
+.virtualWorlds {
+    background-image: url("Image\ Placeholder\ Virtual\ Worlds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+.buttonChanging1 {
+    width: 35%;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .buttonChanging1 {
+        width: 60%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .buttonChanging1 {
+        width: 100%;
+    }
+}
+
+
+
+
+.buttonChanging2 {
+    width: 40%;
+    height: 60px;
+    margin-left: -30px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .buttonChanging2 {
+        width: 100%;
+        height: 46px;
+        margin-left: auto;
+    }
+
+}
+
+
+
+
+
+.buttonChanging3 {
+    width: 50%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .buttonChanging3 {
+        width: 100%;
+    }
+
+}
+
+
+
+.buttonChanging4 {
+    width: 40%;
+    height: 60px;
+    margin-left: -30px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .buttonChanging4 {
+        width: 100%;
+        height: 46px;
+        margin-left: auto
+    }
+
+}
+
+
+inp2 {
+    width: 60%;
+    height: 60px;
+    border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    inp2{
+        width: 100%;
+        height: 46px;
+       
+    }
+
+}
+
+
+.cardChanging1{
+    width: 80%; 
+    height: 80%;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .cardChanging1 {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+
+
+.imgChanging1{
+    width: 70%; 
+    height: 80%;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .imgChanging1 {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+.backgroundChanging1 {
+    background-color: rgba(59, 59, 59, 1); 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .backgroundChanging1{
+       background-color: rgba(43, 43, 43, 1);      
+    }
+
+}
+
+
+.backgroundChanging2 {
+    width: 297px; 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .backgroundChanging2{
+        width: 100%;   
+    }
+
+}
+
+
+
+.colSizing {
+    width: 23% !important;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .colSizing {
+        width: 48% !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .colSizing {
+        width: 100% !important;
+    }
+}
+
+
+.fontChanging1 {
+    font-size: 67px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging1 {
+        font-size: 38px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .fontChanging1 {
+        font-size: 28px;
+    }
+}
+
+
+
+.fontChanging2 {
+    font-size: 22px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging2 {
+        font-size: 16px;
+    }
+
+}
+
+
+
+.fontChanging3 {
+    font-size: 28px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging3 {
+        font-size: 22px;
+    }
+
+}
+
+
+
+.fontChanging4 {
+    font-size: 24px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging4 {
+        font-size: 16px;
+    }
+
+}
+
+
+
+.fontChanging5 {
+    font-size: 38px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging5 {
+        font-size: 28px;
+    }
+
+}
+
+
+.fontChanging6 {
+    font-size: 22px !important;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging6 {
+        font-size: 16px !important;
+    }
+
+}
+
+
+
+.fontChanging7 {
+    font-size: 16px !important;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging7 {
+        font-size: 12px !important;
+    }
+
+}
+
+
+
+
+.fontChanging8 {
+    font-size: 51px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging8 {
+        font-size: 38px;
+    }
+
+}
+
+
+.fontChanging9 {
+    font-size: 16px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging9 {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.fontChanging {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .fontChanging {
+        font-size: 18px;
+    }
+
+}
+კლასებით ან აიდებით
+*/
