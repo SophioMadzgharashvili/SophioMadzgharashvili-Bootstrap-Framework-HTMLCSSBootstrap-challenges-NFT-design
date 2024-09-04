@@ -33,9 +33,28 @@
 
 .background1{
     background-repeat: no-repeat;
-    background-image: url("2.png");
+    background-image: url("1.png");
     background-size: cover;
+    background-position-y: -350px;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    .background1 {
+        background-position: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .background1 {
+        background-position-y: 0px;
+    }
+}
+
+
 
 .background2{
     background-image: linear-gradient(180deg, rgba(162, 89, 255, 0),
@@ -124,7 +143,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: blur(8px)  saturate(113%);
+    filter: blur(5px)  saturate(113%);
 }
 
 
@@ -209,22 +228,6 @@
 }
 
 
-inp2 {
-    width: 60%;
-    height: 60px;
-    border-radius: 20px;
-}
-
-
-
-@media screen and (max-width: 768px) {
-    inp2{
-        width: 100%;
-        height: 46px;
-       
-    }
-
-}
 
 
 .cardChanging1{
@@ -468,24 +471,3 @@ inp2 {
 
 
 
-
-
-
-
-
-
-
-
-/*
-.fontChanging {
-    font-size: 22px;
-}
-
-@media screen and (max-width: 768px) {
-    .fontChanging {
-        font-size: 18px;
-    }
-
-}
-კლასებით ან აიდებით
-*/
