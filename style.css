@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 992px) {
     .background1 {
-        background-position: center;
+        background-position-y: -110px;
     }
 
 }
@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 768px) {
     .background1 {
-        background-position-y: 0px;
+        background-position: center;
     }
 }
 
